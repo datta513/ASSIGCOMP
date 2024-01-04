@@ -1,0 +1,30 @@
+.projhst {
+  text-decoration: underline;
+  text-decoration-color: yellowgreen;
+}
+
+.u {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: inset;
+}
+
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: 2vw;
+}
+.cont2 {
+  width: 40vw;
+  margin: 2vw;
+}
+.contm {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+}
