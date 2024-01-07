@@ -80,26 +80,23 @@ export default class Home extends Component {
                         type="button"
                         onClick={this.trigL}
                       >
-                        <a
-                          href="https://www.linkedin.com/in/sri-harsha-samavedam-08a369194/"
-                          target="_blank"
-                        >
-                          LinkedIn
-                        </a>
+                        LinkedIn
                       </button>
                     </div>
                   </div>
                   <div className="div2">
                     <img
-                      src="https://static.vecteezy.com/system/resources/previews/024/602/602/non_2x/autumn-natural-background-illustration-ai-generative-free-photo.jpg"
-                      height="50%"
+                      src="https://images.unsplash.com/photo-1548384394-ba607603e3b1?w=320&h=427&fit=crop"
+                      height="80%"
                       width="50%"
                     />
                   </div>
                 </div>
               </div>
               <div className="formsty">
-                <h1 className="hsty">Add Projects</h1>
+                <h1>
+                  Ad<span className="hsty">d Pro</span>jects
+                </h1>
                 <form>
                   <div>
                     <label htmlFor="username" className="labelg">
@@ -132,21 +129,23 @@ export default class Home extends Component {
                       Description
                     </label>
                     <br />
-                    <input
-                      type="text"
+                    <textarea
                       className="inpsty"
                       value={Description}
                       onChange={this.Dchan}
                       id="desc"
+                      cols={4}
+                      rows={4}
                     />
                   </div>
                   <div className="buttonstyle">
                     <button type="submit" onClick={sub}>
-                      Submit
+                      Add
                     </button>
                   </div>
                 </form>
               </div>
+              <div className="end"></div>
             </div>
           )
         }}

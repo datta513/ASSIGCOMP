@@ -7,10 +7,9 @@ const Eachcom = props => {
       <div className="cont1">
         <h1>{data.projectName}</h1>
         <p>{data.Description}</p>
-
-        <a href={ProjectLink} target="_blank">
+        <button type="button " className="button_style">
           View project
-        </a>
+        </button>
       </div>
       <div className="cont2">
         <img src={data.imgur} height="70%" width="100%" alt={data.imgur} />

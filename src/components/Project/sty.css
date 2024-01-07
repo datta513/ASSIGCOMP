@@ -28,3 +28,11 @@
   margin: 10px;
   padding: 10px;
 }
+
+.button_style {
+  width: 30%;
+  padding: 1%;
+  border: solid;
+  border-width: 0.01pc;
+  border-radius: 30%;
+}

@@ -1,9 +1,8 @@
 import {Link, Redirect} from 'react-router-dom'
 const Header = () => (
   <nav className="navbar">
-    <Link to="/">
-      <h3>Madelyn Torff</h3>
-    </Link>
+    <h3>Madelyn Torff</h3>
+
     <div className="col">
       <Link to="/About" className="k">
         About
