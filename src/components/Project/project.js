@@ -1,5 +1,12 @@
 import {Link} from 'react-router-dom'
 import Context from '../../Context/Contexrt'
+import {
+  FaInstagramSquare,
+  FaLinkedin,
+  FaEnvelope,
+  FaRegCopyright,
+} from 'react-icons/fa'
+
 import Header from '../Header/Header'
 import Eachcom from './eachstyle'
 import './sty.css'
@@ -14,6 +21,14 @@ const Project = () => (
           {projects.length > 0
             ? projects.map(each => <Eachcom data={each} key={each.id} />)
             : ''}
+          <div>
+            <FaInstagramSquare className="iconsty" />
+            <FaLinkedin className="iconsty" />
+            <FaEnvelope className="iconsty" />
+          </div>
+          <p>
+            Copyright <FaRegCopyright /> 2024 . All rights reserved
+          </p>
         </div>
       )
     }}

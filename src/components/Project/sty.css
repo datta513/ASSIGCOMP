@@ -36,3 +36,9 @@
   border-width: 0.01pc;
   border-radius: 30%;
 }
+
+.iconsty {
+  height: 5vh;
+  width: 5vw;
+  margin: 5vw;
+}
