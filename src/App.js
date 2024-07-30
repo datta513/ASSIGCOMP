@@ -41,7 +41,6 @@ export default class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Projects" component={Project} />
-            <Route path="/About" component={About} />
             <Route path="/Contscts" component={Con} />
           </Switch>
         </BrowserRouter>
